@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jihyeon's Todo-List</title>
+    <link rel="stylesheet" href="todo.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="Todotitle">
+            <h1>www.ToDo-List.com
+                <div class="control-buttons">
+                    <button class="down">―</button>
+                    <button class="big" >ㅁ</button>
+                    <button id="close" class="close">x</button> 
+                </div>
+            </h1>
+        </div>
+
+        <div class="subtitle">
+            <span class="t">T</span>
+            <span class="o1">o</span>
+            <span class="d">D</span>
+            <span class="o2">o</span>
+            <span class="dash">-</span>
+            <span class="list">List</span>
+            <span class="ex">!</span>
+        </div>
+        <div class="appendbox">
+            <form id="todo-form">
+                <input id="whattodo" type="text" placeholder="할 일을 입력하세요!">
+                <input id="submitbtn" type="submit" value="+">
+            </form>
+        </div>
+
+        <ul class="todo-box"></ul> 
+    </div> <script src="script.js"></script>
+</body>
+</html>
